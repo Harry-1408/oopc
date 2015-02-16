@@ -1,0 +1,32 @@
+#include<iostream>
+
+main()
+{
+   using namespace std;
+ int d,i,n,temp,pos,cnt=0,temp1;
+
+cout<<"enter the value of nnumber";
+cin>>n;
+temp=n;
+cout<<"enter the value of digit";
+cin>>d;
+while(n!=0)
+{
+n=n/10;
+cnt++;
+}
+
+while(temp!=0)
+{
+temp1=temp%10;
+if(temp1==d)
+{
+cout<<"the digit is present in given number"<<endl;
+cout<<"the positon id"<<cnt;
+}
+cnt--;
+temp=temp/10;
+}
+}
+
+
