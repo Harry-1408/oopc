@@ -1,0 +1,17 @@
+#include<iostream>
+
+main()
+{
+   using namespace std;
+ int n,i,m=0;
+ cin>>n;
+ for(i=n;i>0;i--)
+ {
+ cout<<i;
+ }
+     while(m!=n+1)
+     {cout<<m;
+     m++;
+ }
+}
+
